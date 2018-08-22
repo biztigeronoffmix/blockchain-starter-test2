@@ -7,14 +7,14 @@ template:
     - build
 
 toolchain:
-  name: 'blockchain-starter-kit-{{timestamp}}'
+  name: 'blockchain-starter-test2'
 
 services:
   repo:
     service_id: githubpublic
     parameters:
       repo_name: '{{toolchain.name}}'
-      repo_url: 'https://github.com/sstone1/blockchain-starter-kit'
+      repo_url: 'https://github.com/biztigeronoffmix/blockchain-starter-test2'
       type: clone
       has_issues: true
       enable_traceability: true
